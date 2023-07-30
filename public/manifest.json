@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "CosmeticScan",
+  "version": "1.0",
+  "description": "CosmeticScan is a helpful assistant that provides information about skincare ingredients. It allows users to analyze beauty product ingredients and learn their benefits with the help of OpenAI's GPT-3.5 Turbo API. Simply click on the extension icon while visiting a beauty product page to get a detailed analysis of the product's ingredients.",
+  "icons": {
+    "16": "extension-icon16.png",
+    "32": "extension-icon32.png",
+    "48": "extension-icon48.png",
+    "128": "extension-icon128.png"
+  },
+  "action": {
+    "default_title": "CosmeticScan",
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
