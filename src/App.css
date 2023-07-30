@@ -1,0 +1,79 @@
+/* App.css */
+
+.app-container {
+  font-family: 'Montserrat', sans-serif;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  background-image: url('../icons/background2.jpg'); /* Update the path to the background image */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  transition: height 0.5s; /* Add a transition for smoother fade-in */
+  min-height: 200px; /* Adjust the minimum height to accommodate ingredient containers */
+  box-shadow: none; /* Remove the white border */
+}
+
+.data-item {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #CD016D;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  color: #CD016D; /* Text color above the container */
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: italic;
+  text-align: center;
+  font-size: 18px;
+  color: #f8f7f0; /* Text color above the container */
+}
+
+.data-item,
+.ingredient-container,
+.ingredient-container p {
+  color: #f8f7f0; /* Set the color for scraped data name, category, and container title */
+}
+
+.ingredient-container {
+  font-size: 24px;
+  margin-top: 10px;
+  border: 3px solid #CD016D; /* Bigger border color */
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f8f7f0; /* Ingredient container color */
+  outline: 2px solid #A9B18F;
+  box-shadow: 0 0 20px #17050C;
+  transition: opacity 0.5s; /* Add a transition for smoother fade-in */
+}
+
+.ingredient-container p:first-child {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  color: #000000; /* Set the text color inside the ingredient container to black */
+}
+
+.ingredient-container p:last-child {
+  font-size: 14px;
+  color: #000000; /* Set the text color inside the ingredient container to black */
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
