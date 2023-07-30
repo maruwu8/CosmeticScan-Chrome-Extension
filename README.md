@@ -6,6 +6,10 @@ CosmeticScan is a powerful assistant that provides information about skincare in
 
 The main **objective** of the CosmeticScan Chrome Extension is to **empower users with knowledge** about the ingredients present in beauty products. By integrating the OpenAI GPT-3.5 Turbo API, the extension provides **concise descriptions for each ingredient**, giving users **valuable insights into the potential effects on their skin**. 🌟
 
+![Extension-Usage-Eg1](https://github.com/maruwu8/CosmeticScan-Chrome-Extension/assets/130385138/341e72b3-5a6c-4295-b73b-2b80866b0156)
+
+![Extension-Usage-Eg2](https://github.com/maruwu8/CosmeticScan-Chrome-Extension/assets/130385138/bfdb2536-b76a-4ed5-97a7-da1d2a69c98c)
+
 ## 💡 Features 💡
 
 - Scrapes ingredients from product pages on Notino websites.
